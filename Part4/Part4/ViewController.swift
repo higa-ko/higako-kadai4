@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet private weak var numberLabel: UILabel!
 
-    var number = 0
+    private var number = 0
     
     @IBAction func addButton(_ sender: UIButton) {
         number += 1
